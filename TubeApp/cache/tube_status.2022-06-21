@@ -1,0 +1,718 @@
+[
+    {
+        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+        "id": "bakerloo",
+        "name": "Bakerloo",
+        "modeName": "tube",
+        "disruptions": [],
+        "created": "2022-06-14T16:01:11.777Z",
+        "modified": "2022-06-14T16:01:11.777Z",
+        "lineStatuses": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "lineId": "bakerloo",
+                "statusSeverity": 2,
+                "statusSeverityDescription": "Suspended",
+                "reason": "Bakerloo line: No service due to strike action. Where possible you are strongly encouraged not to\r\ntravel today.",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": [
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                        "fromDate": "2022-06-21T05:30:00Z",
+                        "toDate": "2022-06-22T00:29:00Z",
+                        "isNow": true
+                    }
+                ],
+                "disruption": {
+                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                    "category": "RealTime",
+                    "categoryDescription": "RealTime",
+                    "description": "Bakerloo line: No service due to strike action. Where possible you are strongly encouraged not to\r\ntravel today.",
+                    "created": "2022-06-21T06:37:00Z",
+                    "affectedRoutes": [],
+                    "affectedStops": [],
+                    "closureText": "suspended"
+                }
+            },
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "lineId": "bakerloo",
+                "statusSeverity": 2,
+                "statusSeverityDescription": "Suspended",
+                "reason": "Bakerloo Line: No service due to strike action. Where possible you are strongly encouraged not to\r\ntravel today. ",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": [
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                        "fromDate": "2022-06-21T10:43:55Z",
+                        "toDate": "2022-06-21T13:43:55Z",
+                        "isNow": true
+                    }
+                ],
+                "disruption": {
+                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                    "category": "RealTime",
+                    "categoryDescription": "RealTime",
+                    "description": "Bakerloo Line: No service due to strike action. Where possible you are strongly encouraged not to\r\ntravel today. ",
+                    "affectedRoutes": [],
+                    "affectedStops": [],
+                    "closureText": "suspended"
+                }
+            }
+        ],
+        "routeSections": [],
+        "serviceTypes": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Regular",
+                "uri": "/Line/Route?ids=Bakerloo&serviceTypes=Regular"
+            }
+        ],
+        "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        }
+    },
+    {
+        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+        "id": "central",
+        "name": "Central",
+        "modeName": "tube",
+        "disruptions": [],
+        "created": "2022-06-14T16:01:11.777Z",
+        "modified": "2022-06-14T16:01:11.777Z",
+        "lineStatuses": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "lineId": "central",
+                "statusSeverity": 3,
+                "statusSeverityDescription": "Part Suspended",
+                "reason": "Central Line: Service operating between White City and West Ruislip / Ealing Broadway, approximately every 20 minutes and between Liverpool Street and Epping / Hainault, approximately every 10 minutes. Service operating between Woodford and Hainault (via Grange Hill) approximately every 20 minutes. No service on the rest of the line due to strike action. Where possible you are strongly encouraged not to travel today. ",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": [
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                        "fromDate": "2022-06-21T10:22:41Z",
+                        "toDate": "2022-06-21T13:22:41Z",
+                        "isNow": true
+                    }
+                ],
+                "disruption": {
+                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                    "category": "RealTime",
+                    "categoryDescription": "RealTime",
+                    "description": "Central Line: Service operating between White City and West Ruislip / Ealing Broadway, approximately every 20 minutes and between Liverpool Street and Epping / Hainault, approximately every 10 minutes. Service operating between Woodford and Hainault (via Grange Hill) approximately every 20 minutes. No service on the rest of the line due to strike action. Where possible you are strongly encouraged not to travel today. ",
+                    "affectedRoutes": [],
+                    "affectedStops": [],
+                    "closureText": "partSuspended"
+                }
+            }
+        ],
+        "routeSections": [],
+        "serviceTypes": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Regular",
+                "uri": "/Line/Route?ids=Central&serviceTypes=Regular"
+            },
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Night",
+                "uri": "/Line/Route?ids=Central&serviceTypes=Night"
+            }
+        ],
+        "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        }
+    },
+    {
+        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+        "id": "circle",
+        "name": "Circle",
+        "modeName": "tube",
+        "disruptions": [],
+        "created": "2022-06-14T16:01:11.76Z",
+        "modified": "2022-06-14T16:01:11.76Z",
+        "lineStatuses": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "lineId": "circle",
+                "statusSeverity": 2,
+                "statusSeverityDescription": "Suspended",
+                "reason": "Circle line: No service due to strike action. Where possible you are strongly encouraged not to\r\ntravel today.",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": [
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                        "fromDate": "2022-06-21T05:30:00Z",
+                        "toDate": "2022-06-22T00:29:00Z",
+                        "isNow": true
+                    }
+                ],
+                "disruption": {
+                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                    "category": "RealTime",
+                    "categoryDescription": "RealTime",
+                    "description": "Circle line: No service due to strike action. Where possible you are strongly encouraged not to\r\ntravel today.",
+                    "created": "2022-06-21T06:36:00Z",
+                    "affectedRoutes": [],
+                    "affectedStops": [],
+                    "closureText": "suspended"
+                }
+            },
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "lineId": "circle",
+                "statusSeverity": 2,
+                "statusSeverityDescription": "Suspended",
+                "reason": "Circle Line: No service due to strike action. Where possible you are strongly encouraged not to\r\ntravel today. ",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": [
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                        "fromDate": "2022-06-21T10:22:52Z",
+                        "toDate": "2022-06-21T13:22:52Z",
+                        "isNow": true
+                    }
+                ],
+                "disruption": {
+                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                    "category": "RealTime",
+                    "categoryDescription": "RealTime",
+                    "description": "Circle Line: No service due to strike action. Where possible you are strongly encouraged not to\r\ntravel today. ",
+                    "affectedRoutes": [],
+                    "affectedStops": [],
+                    "closureText": "suspended"
+                }
+            }
+        ],
+        "routeSections": [],
+        "serviceTypes": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Regular",
+                "uri": "/Line/Route?ids=Circle&serviceTypes=Regular"
+            }
+        ],
+        "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        }
+    },
+    {
+        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+        "id": "district",
+        "name": "District",
+        "modeName": "tube",
+        "disruptions": [],
+        "created": "2022-06-14T16:01:11.76Z",
+        "modified": "2022-06-14T16:01:11.76Z",
+        "lineStatuses": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "lineId": "district",
+                "statusSeverity": 3,
+                "statusSeverityDescription": "Part Suspended",
+                "reason": "District Line: Service operating between West Ham and Upminster approximately every 15 minutes. NO SERVICE on the rest of the line due to strike action. Where possible you are strongly encouraged not to travel today. ",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": [
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                        "fromDate": "2022-06-21T10:24:30Z",
+                        "toDate": "2022-06-21T13:24:30Z",
+                        "isNow": true
+                    }
+                ],
+                "disruption": {
+                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                    "category": "RealTime",
+                    "categoryDescription": "RealTime",
+                    "description": "District Line: Service operating between West Ham and Upminster approximately every 15 minutes. NO SERVICE on the rest of the line due to strike action. Where possible you are strongly encouraged not to travel today. ",
+                    "affectedRoutes": [],
+                    "affectedStops": [],
+                    "closureText": "partSuspended"
+                }
+            }
+        ],
+        "routeSections": [],
+        "serviceTypes": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Regular",
+                "uri": "/Line/Route?ids=District&serviceTypes=Regular"
+            }
+        ],
+        "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        }
+    },
+    {
+        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City",
+        "modeName": "tube",
+        "disruptions": [],
+        "created": "2022-06-14T16:01:11.777Z",
+        "modified": "2022-06-14T16:01:11.777Z",
+        "lineStatuses": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "lineId": "hammersmith-city",
+                "statusSeverity": 2,
+                "statusSeverityDescription": "Suspended",
+                "reason": "Hammersmith & City line: No service due to strike action. Where possible you are strongly encouraged not to travel today.",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": [
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                        "fromDate": "2022-06-21T05:30:00Z",
+                        "toDate": "2022-06-22T00:29:00Z",
+                        "isNow": true
+                    }
+                ],
+                "disruption": {
+                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                    "category": "RealTime",
+                    "categoryDescription": "RealTime",
+                    "description": "Hammersmith & City line: No service due to strike action. Where possible you are strongly encouraged not to travel today.",
+                    "created": "2022-06-21T06:39:00Z",
+                    "affectedRoutes": [],
+                    "affectedStops": [],
+                    "closureText": "suspended"
+                }
+            },
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "lineId": "hammersmith-city",
+                "statusSeverity": 2,
+                "statusSeverityDescription": "Suspended",
+                "reason": "Hammersmith and City Line: No service due to strike action. Where possible you are strongly encouraged not to\r\ntravel today. ",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": [
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                        "fromDate": "2022-06-21T10:24:49Z",
+                        "toDate": "2022-06-21T13:24:49Z",
+                        "isNow": true
+                    }
+                ],
+                "disruption": {
+                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                    "category": "RealTime",
+                    "categoryDescription": "RealTime",
+                    "description": "Hammersmith and City Line: No service due to strike action. Where possible you are strongly encouraged not to\r\ntravel today. ",
+                    "affectedRoutes": [],
+                    "affectedStops": [],
+                    "closureText": "suspended"
+                }
+            }
+        ],
+        "routeSections": [],
+        "serviceTypes": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Regular",
+                "uri": "/Line/Route?ids=Hammersmith & City&serviceTypes=Regular"
+            }
+        ],
+        "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        }
+    },
+    {
+        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+        "id": "jubilee",
+        "name": "Jubilee",
+        "modeName": "tube",
+        "disruptions": [],
+        "created": "2022-06-14T16:01:11.76Z",
+        "modified": "2022-06-14T16:01:11.76Z",
+        "lineStatuses": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "lineId": "jubilee",
+                "statusSeverity": 2,
+                "statusSeverityDescription": "Suspended",
+                "reason": "Jubilee line: No service due to strike action. Where possible you are strongly encouraged not to\r\ntravel today.",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": [
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                        "fromDate": "2022-06-21T05:30:00Z",
+                        "toDate": "2022-06-22T00:29:00Z",
+                        "isNow": true
+                    }
+                ],
+                "disruption": {
+                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                    "category": "RealTime",
+                    "categoryDescription": "RealTime",
+                    "description": "Jubilee line: No service due to strike action. Where possible you are strongly encouraged not to\r\ntravel today.",
+                    "created": "2022-06-21T06:37:00Z",
+                    "affectedRoutes": [],
+                    "affectedStops": [],
+                    "closureText": "suspended"
+                }
+            },
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "lineId": "jubilee",
+                "statusSeverity": 2,
+                "statusSeverityDescription": "Suspended",
+                "reason": "Jubilee Line: No service due to strike action. Where possible you are strongly encouraged not to\r\ntravel today. ",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": [
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                        "fromDate": "2022-06-21T10:25:06Z",
+                        "toDate": "2022-06-21T13:25:06Z",
+                        "isNow": true
+                    }
+                ],
+                "disruption": {
+                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                    "category": "RealTime",
+                    "categoryDescription": "RealTime",
+                    "description": "Jubilee Line: No service due to strike action. Where possible you are strongly encouraged not to\r\ntravel today. ",
+                    "affectedRoutes": [],
+                    "affectedStops": [],
+                    "closureText": "suspended"
+                }
+            }
+        ],
+        "routeSections": [],
+        "serviceTypes": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Regular",
+                "uri": "/Line/Route?ids=Jubilee&serviceTypes=Regular"
+            },
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Night",
+                "uri": "/Line/Route?ids=Jubilee&serviceTypes=Night"
+            }
+        ],
+        "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        }
+    },
+    {
+        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+        "id": "metropolitan",
+        "name": "Metropolitan",
+        "modeName": "tube",
+        "disruptions": [],
+        "created": "2022-06-14T16:01:11.76Z",
+        "modified": "2022-06-14T16:01:11.76Z",
+        "lineStatuses": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "lineId": "metropolitan",
+                "statusSeverity": 2,
+                "statusSeverityDescription": "Suspended",
+                "reason": "Metropolitan line: No service due to strike action. Where possible you are strongly encouraged not to travel today.",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": [
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                        "fromDate": "2022-06-21T05:30:00Z",
+                        "toDate": "2022-06-22T00:29:00Z",
+                        "isNow": true
+                    }
+                ],
+                "disruption": {
+                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                    "category": "RealTime",
+                    "categoryDescription": "RealTime",
+                    "description": "Metropolitan line: No service due to strike action. Where possible you are strongly encouraged not to travel today.",
+                    "created": "2022-06-21T06:38:00Z",
+                    "affectedRoutes": [],
+                    "affectedStops": [],
+                    "closureText": "suspended"
+                }
+            }
+        ],
+        "routeSections": [],
+        "serviceTypes": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Regular",
+                "uri": "/Line/Route?ids=Metropolitan&serviceTypes=Regular"
+            }
+        ],
+        "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        }
+    },
+    {
+        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+        "id": "northern",
+        "name": "Northern",
+        "modeName": "tube",
+        "disruptions": [],
+        "created": "2022-06-14T16:01:11.777Z",
+        "modified": "2022-06-14T16:01:11.777Z",
+        "lineStatuses": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "lineId": "northern",
+                "statusSeverity": 3,
+                "statusSeverityDescription": "Part Suspended",
+                "reason": "Service operating between East Finchley and High Barnet / Mill Hill East and between Golders Green and Edgware, approximately every 8 minutes. No service on the rest of the line due to strike action. Where possible you are strongly encouraged not to travel today.",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": [
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                        "fromDate": "2022-06-21T04:31:00Z",
+                        "toDate": "2022-06-22T00:29:00Z",
+                        "isNow": true
+                    }
+                ],
+                "disruption": {
+                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                    "category": "RealTime",
+                    "categoryDescription": "RealTime",
+                    "description": "Service operating between East Finchley and High Barnet / Mill Hill East and between Golders Green and Edgware, approximately every 8 minutes. No service on the rest of the line due to strike action. Where possible you are strongly encouraged not to travel today.",
+                    "created": "2022-06-21T05:31:00Z",
+                    "affectedRoutes": [],
+                    "affectedStops": [],
+                    "closureText": "partSuspended"
+                }
+            },
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "lineId": "northern",
+                "statusSeverity": 3,
+                "statusSeverityDescription": "Part Suspended",
+                "reason": "Northern Line: Service operating between East Finchley and High Barnet / Mill Hill East and between Golders Green and Edgware, approximately every 8 minutes. No service on the rest of the line due to strike action. Where possible you are strongly encouraged not to travel today. ",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": [
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                        "fromDate": "2022-06-21T10:26:54Z",
+                        "toDate": "2022-06-21T13:26:54Z",
+                        "isNow": true
+                    }
+                ],
+                "disruption": {
+                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                    "category": "RealTime",
+                    "categoryDescription": "RealTime",
+                    "description": "Northern Line: Service operating between East Finchley and High Barnet / Mill Hill East and between Golders Green and Edgware, approximately every 8 minutes. No service on the rest of the line due to strike action. Where possible you are strongly encouraged not to travel today. ",
+                    "affectedRoutes": [],
+                    "affectedStops": [],
+                    "closureText": "partSuspended"
+                }
+            }
+        ],
+        "routeSections": [],
+        "serviceTypes": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Regular",
+                "uri": "/Line/Route?ids=Northern&serviceTypes=Regular"
+            },
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Night",
+                "uri": "/Line/Route?ids=Northern&serviceTypes=Night"
+            }
+        ],
+        "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        }
+    },
+    {
+        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+        "id": "piccadilly",
+        "name": "Piccadilly",
+        "modeName": "tube",
+        "disruptions": [],
+        "created": "2022-06-14T16:01:11.76Z",
+        "modified": "2022-06-14T16:01:11.76Z",
+        "lineStatuses": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "lineId": "piccadilly",
+                "statusSeverity": 2,
+                "statusSeverityDescription": "Suspended",
+                "reason": "Piccadilly Line: No service due to strike action. Where possible you are strongly encouraged not to\r\ntravel today. ",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": [
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                        "fromDate": "2022-06-21T10:27:41Z",
+                        "toDate": "2022-06-21T13:27:41Z",
+                        "isNow": true
+                    }
+                ],
+                "disruption": {
+                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                    "category": "RealTime",
+                    "categoryDescription": "RealTime",
+                    "description": "Piccadilly Line: No service due to strike action. Where possible you are strongly encouraged not to\r\ntravel today. ",
+                    "affectedRoutes": [],
+                    "affectedStops": [],
+                    "closureText": "suspended"
+                }
+            }
+        ],
+        "routeSections": [],
+        "serviceTypes": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Regular",
+                "uri": "/Line/Route?ids=Piccadilly&serviceTypes=Regular"
+            },
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Night",
+                "uri": "/Line/Route?ids=Piccadilly&serviceTypes=Night"
+            }
+        ],
+        "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        }
+    },
+    {
+        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+        "id": "victoria",
+        "name": "Victoria",
+        "modeName": "tube",
+        "disruptions": [],
+        "created": "2022-06-14T16:01:11.76Z",
+        "modified": "2022-06-14T16:01:11.76Z",
+        "lineStatuses": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "lineId": "victoria",
+                "statusSeverity": 2,
+                "statusSeverityDescription": "Suspended",
+                "reason": "Victoria line: No service due to strike action. Where possible you are strongly encouraged not to\r\ntravel today.",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": [
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                        "fromDate": "2022-06-21T05:30:00Z",
+                        "toDate": "2022-06-22T00:29:00Z",
+                        "isNow": true
+                    }
+                ],
+                "disruption": {
+                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                    "category": "RealTime",
+                    "categoryDescription": "RealTime",
+                    "description": "Victoria line: No service due to strike action. Where possible you are strongly encouraged not to\r\ntravel today.",
+                    "created": "2022-06-21T06:30:00Z",
+                    "affectedRoutes": [],
+                    "affectedStops": [],
+                    "closureText": "suspended"
+                }
+            },
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "lineId": "victoria",
+                "statusSeverity": 2,
+                "statusSeverityDescription": "Suspended",
+                "reason": "Victoria Line: No service due to strike action. Where possible you are strongly encouraged not to\r\ntravel today. ",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": [
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                        "fromDate": "2022-06-21T10:28:25Z",
+                        "toDate": "2022-06-21T13:28:25Z",
+                        "isNow": true
+                    }
+                ],
+                "disruption": {
+                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                    "category": "RealTime",
+                    "categoryDescription": "RealTime",
+                    "description": "Victoria Line: No service due to strike action. Where possible you are strongly encouraged not to\r\ntravel today. ",
+                    "affectedRoutes": [],
+                    "affectedStops": [],
+                    "closureText": "suspended"
+                }
+            }
+        ],
+        "routeSections": [],
+        "serviceTypes": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Regular",
+                "uri": "/Line/Route?ids=Victoria&serviceTypes=Regular"
+            },
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Night",
+                "uri": "/Line/Route?ids=Victoria&serviceTypes=Night"
+            }
+        ],
+        "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        }
+    },
+    {
+        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+        "id": "waterloo-city",
+        "name": "Waterloo & City",
+        "modeName": "tube",
+        "disruptions": [],
+        "created": "2022-06-14T16:01:11.777Z",
+        "modified": "2022-06-14T16:01:11.777Z",
+        "lineStatuses": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "lineId": "waterloo-city",
+                "statusSeverity": 2,
+                "statusSeverityDescription": "Suspended",
+                "reason": "Waterloo and City Line: No service due to strike action. Where possible you are strongly encouraged not to\r\ntravel today. ",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": [
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                        "fromDate": "2022-06-21T10:28:36Z",
+                        "toDate": "2022-06-21T13:28:36Z",
+                        "isNow": true
+                    }
+                ],
+                "disruption": {
+                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                    "category": "RealTime",
+                    "categoryDescription": "RealTime",
+                    "description": "Waterloo and City Line: No service due to strike action. Where possible you are strongly encouraged not to\r\ntravel today. ",
+                    "affectedRoutes": [],
+                    "affectedStops": [],
+                    "closureText": "suspended"
+                }
+            }
+        ],
+        "routeSections": [],
+        "serviceTypes": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Regular",
+                "uri": "/Line/Route?ids=Waterloo & City&serviceTypes=Regular"
+            }
+        ],
+        "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        }
+    }
+]

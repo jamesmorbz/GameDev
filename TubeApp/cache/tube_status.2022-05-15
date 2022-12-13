@@ -1,0 +1,516 @@
+[
+    {
+        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+        "id": "bakerloo",
+        "name": "Bakerloo",
+        "modeName": "tube",
+        "disruptions": [],
+        "created": "2022-05-12T09:57:51.703Z",
+        "modified": "2022-05-12T09:57:51.703Z",
+        "lineStatuses": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "lineId": "bakerloo",
+                "statusSeverity": 3,
+                "statusSeverityDescription": "Part Suspended",
+                "reason": "Bakerloo Line: No service between Queen's Park and Harrow & Wealdstone due to a signal failure at Stonebridge Park. MINOR DELAYS on the rest of the line. London Buses accepted tickets via any reasonable route. ",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": [
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                        "fromDate": "2022-05-15T16:46:34Z",
+                        "toDate": "2022-05-15T19:46:34Z",
+                        "isNow": true
+                    }
+                ],
+                "disruption": {
+                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                    "category": "RealTime",
+                    "categoryDescription": "RealTime",
+                    "description": "Bakerloo Line: No service between Queen's Park and Harrow & Wealdstone due to a signal failure at Stonebridge Park. MINOR DELAYS on the rest of the line. London Buses accepted tickets via any reasonable route. ",
+                    "affectedRoutes": [],
+                    "affectedStops": [],
+                    "closureText": "partSuspended"
+                }
+            },
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "lineId": "bakerloo",
+                "statusSeverity": 9,
+                "statusSeverityDescription": "Minor Delays",
+                "reason": "Bakerloo Line: No service between Queen's Park and Harrow & Wealdstone due to a signal failure at Stonebridge Park. MINOR DELAYS on the rest of the line. London Buses accepted tickets via any reasonable route. ",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": [
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                        "fromDate": "2022-05-15T16:46:34Z",
+                        "toDate": "2022-05-16T01:29:00Z",
+                        "isNow": true
+                    }
+                ],
+                "disruption": {
+                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                    "category": "RealTime",
+                    "categoryDescription": "RealTime",
+                    "description": "Bakerloo Line: No service between Queen's Park and Harrow & Wealdstone due to a signal failure at Stonebridge Park. MINOR DELAYS on the rest of the line. London Buses accepted tickets via any reasonable route. ",
+                    "affectedRoutes": [],
+                    "affectedStops": [],
+                    "closureText": "minorDelays"
+                }
+            }
+        ],
+        "routeSections": [],
+        "serviceTypes": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Regular",
+                "uri": "/Line/Route?ids=Bakerloo&serviceTypes=Regular"
+            }
+        ],
+        "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        }
+    },
+    {
+        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+        "id": "central",
+        "name": "Central",
+        "modeName": "tube",
+        "disruptions": [],
+        "created": "2022-05-12T09:57:51.703Z",
+        "modified": "2022-05-12T09:57:51.703Z",
+        "lineStatuses": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "statusSeverity": 10,
+                "statusSeverityDescription": "Good Service",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": []
+            }
+        ],
+        "routeSections": [],
+        "serviceTypes": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Regular",
+                "uri": "/Line/Route?ids=Central&serviceTypes=Regular"
+            },
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Night",
+                "uri": "/Line/Route?ids=Central&serviceTypes=Night"
+            }
+        ],
+        "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        }
+    },
+    {
+        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+        "id": "circle",
+        "name": "Circle",
+        "modeName": "tube",
+        "disruptions": [],
+        "created": "2022-05-12T09:57:51.703Z",
+        "modified": "2022-05-12T09:57:51.703Z",
+        "lineStatuses": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "statusSeverity": 10,
+                "statusSeverityDescription": "Good Service",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": []
+            }
+        ],
+        "routeSections": [],
+        "serviceTypes": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Regular",
+                "uri": "/Line/Route?ids=Circle&serviceTypes=Regular"
+            }
+        ],
+        "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        }
+    },
+    {
+        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+        "id": "district",
+        "name": "District",
+        "modeName": "tube",
+        "disruptions": [],
+        "created": "2022-05-12T09:57:51.687Z",
+        "modified": "2022-05-12T09:57:51.687Z",
+        "lineStatuses": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "lineId": "district",
+                "statusSeverity": 3,
+                "statusSeverityDescription": "Part Suspended",
+                "reason": "District Line: No service between Earl's Court and Kensington Olympia while we fix a signal failure at Kensington Olympia. GOOD SERVICE on the rest of the line. ",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": [
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                        "fromDate": "2022-05-15T15:45:53Z",
+                        "toDate": "2022-05-15T18:45:53Z",
+                        "isNow": true
+                    }
+                ],
+                "disruption": {
+                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                    "category": "RealTime",
+                    "categoryDescription": "RealTime",
+                    "description": "District Line: No service between Earl's Court and Kensington Olympia while we fix a signal failure at Kensington Olympia. GOOD SERVICE on the rest of the line. ",
+                    "affectedRoutes": [],
+                    "affectedStops": [],
+                    "closureText": "partSuspended"
+                }
+            }
+        ],
+        "routeSections": [],
+        "serviceTypes": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Regular",
+                "uri": "/Line/Route?ids=District&serviceTypes=Regular"
+            }
+        ],
+        "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        }
+    },
+    {
+        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+        "id": "hammersmith-city",
+        "name": "Hammersmith & City",
+        "modeName": "tube",
+        "disruptions": [],
+        "created": "2022-05-12T09:57:51.717Z",
+        "modified": "2022-05-12T09:57:51.717Z",
+        "lineStatuses": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "statusSeverity": 10,
+                "statusSeverityDescription": "Good Service",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": []
+            }
+        ],
+        "routeSections": [],
+        "serviceTypes": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Regular",
+                "uri": "/Line/Route?ids=Hammersmith & City&serviceTypes=Regular"
+            }
+        ],
+        "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        }
+    },
+    {
+        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+        "id": "jubilee",
+        "name": "Jubilee",
+        "modeName": "tube",
+        "disruptions": [],
+        "created": "2022-05-12T09:57:51.703Z",
+        "modified": "2022-05-12T09:57:51.703Z",
+        "lineStatuses": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "statusSeverity": 10,
+                "statusSeverityDescription": "Good Service",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": []
+            }
+        ],
+        "routeSections": [],
+        "serviceTypes": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Regular",
+                "uri": "/Line/Route?ids=Jubilee&serviceTypes=Regular"
+            },
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Night",
+                "uri": "/Line/Route?ids=Jubilee&serviceTypes=Night"
+            }
+        ],
+        "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        }
+    },
+    {
+        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+        "id": "metropolitan",
+        "name": "Metropolitan",
+        "modeName": "tube",
+        "disruptions": [],
+        "created": "2022-05-12T09:57:51.703Z",
+        "modified": "2022-05-12T09:57:51.703Z",
+        "lineStatuses": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "statusSeverity": 10,
+                "statusSeverityDescription": "Good Service",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": []
+            }
+        ],
+        "routeSections": [],
+        "serviceTypes": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Regular",
+                "uri": "/Line/Route?ids=Metropolitan&serviceTypes=Regular"
+            }
+        ],
+        "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        }
+    },
+    {
+        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+        "id": "northern",
+        "name": "Northern",
+        "modeName": "tube",
+        "disruptions": [],
+        "created": "2022-05-12T09:57:51.687Z",
+        "modified": "2022-05-12T09:57:51.687Z",
+        "lineStatuses": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "lineId": "northern",
+                "statusSeverity": 5,
+                "statusSeverityDescription": "Part Closure",
+                "reason": "NORTHERN LINE: Saturday 14 and Saturday 15 May, no service between Charing Cross and Battersea Power Station / Stockwell, and between Euston and Battersea Power Station/Stockwell, via Bank",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": [
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                        "fromDate": "2022-05-14T05:09:00Z",
+                        "toDate": "2022-05-16T01:29:00Z",
+                        "isNow": false
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                        "fromDate": "2022-05-14T04:39:00Z",
+                        "toDate": "2022-05-16T01:29:00Z",
+                        "isNow": false
+                    },
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                        "fromDate": "2022-05-14T04:30:00Z",
+                        "toDate": "2022-05-16T01:29:00Z",
+                        "isNow": false
+                    }
+                ],
+                "disruption": {
+                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                    "category": "PlannedWork",
+                    "categoryDescription": "PlannedWork",
+                    "description": "NORTHERN LINE: Saturday 14 and Saturday 15 May, no service between Charing Cross and Battersea Power Station / Stockwell, and between Euston and Battersea Power Station/Stockwell, via Bank",
+                    "created": "2022-05-14T05:09:00Z",
+                    "affectedRoutes": [],
+                    "affectedStops": [],
+                    "closureText": "partClosure"
+                }
+            }
+        ],
+        "routeSections": [],
+        "serviceTypes": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Regular",
+                "uri": "/Line/Route?ids=Northern&serviceTypes=Regular"
+            },
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Night",
+                "uri": "/Line/Route?ids=Northern&serviceTypes=Night"
+            }
+        ],
+        "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        }
+    },
+    {
+        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+        "id": "piccadilly",
+        "name": "Piccadilly",
+        "modeName": "tube",
+        "disruptions": [],
+        "created": "2022-05-12T09:57:51.703Z",
+        "modified": "2022-05-12T09:57:51.703Z",
+        "lineStatuses": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "lineId": "piccadilly",
+                "statusSeverity": 5,
+                "statusSeverityDescription": "Part Closure",
+                "reason": "PICCADILLY LINE: Saturday 14 and Sunday 15 May, no service between Acton Town and Heathrow (all terminals). Replacement buses operate.",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": [
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                        "fromDate": "2022-05-14T04:30:00Z",
+                        "toDate": "2022-05-16T01:29:00Z",
+                        "isNow": false
+                    }
+                ],
+                "disruption": {
+                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                    "category": "PlannedWork",
+                    "categoryDescription": "PlannedWork",
+                    "description": "PICCADILLY LINE: Saturday 14 and Sunday 15 May, no service between Acton Town and Heathrow (all terminals). Replacement buses operate.",
+                    "additionalInfo": "Replacement buses operateService PL1: Acton Town - South Ealing - Northfields - Boston Manor - Osterley - Hounslow East - Hounslow Central (Bell Corner) - Hounslow West - Hatton Cross - Heathrow Central (for Terminals 2 & 3). Overnight journeys also serve Heathrow Terminal 5.Service PL3: Acton Town - Heathrow Central (for Terminals 2 & 3)",
+                    "created": "2022-01-14T10:18:00Z",
+                    "affectedRoutes": [],
+                    "affectedStops": [],
+                    "closureText": "partClosure"
+                }
+            },
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "lineId": "piccadilly",
+                "statusSeverity": 5,
+                "statusSeverityDescription": "Part Closure",
+                "reason": "PICCADILLY LINE: Saturday 14 and Sunday 15 May, no service between Rayners Lane and Uxbridge. Please use Metropolitan line services instead.",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": [
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                        "fromDate": "2022-05-14T04:30:00Z",
+                        "toDate": "2022-05-16T01:29:00Z",
+                        "isNow": false
+                    }
+                ],
+                "disruption": {
+                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                    "category": "PlannedWork",
+                    "categoryDescription": "PlannedWork",
+                    "description": "PICCADILLY LINE: Saturday 14 and Sunday 15 May, no service between Rayners Lane and Uxbridge. Please use Metropolitan line services instead.",
+                    "created": "2022-03-25T16:03:00Z",
+                    "affectedRoutes": [],
+                    "affectedStops": [],
+                    "closureText": "partClosure"
+                }
+            }
+        ],
+        "routeSections": [],
+        "serviceTypes": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Regular",
+                "uri": "/Line/Route?ids=Piccadilly&serviceTypes=Regular"
+            },
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Night",
+                "uri": "/Line/Route?ids=Piccadilly&serviceTypes=Night"
+            }
+        ],
+        "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        }
+    },
+    {
+        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+        "id": "victoria",
+        "name": "Victoria",
+        "modeName": "tube",
+        "disruptions": [],
+        "created": "2022-05-12T09:57:51.703Z",
+        "modified": "2022-05-12T09:57:51.703Z",
+        "lineStatuses": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "statusSeverity": 10,
+                "statusSeverityDescription": "Good Service",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": []
+            }
+        ],
+        "routeSections": [],
+        "serviceTypes": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Regular",
+                "uri": "/Line/Route?ids=Victoria&serviceTypes=Regular"
+            },
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Night",
+                "uri": "/Line/Route?ids=Victoria&serviceTypes=Night"
+            }
+        ],
+        "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        }
+    },
+    {
+        "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+        "id": "waterloo-city",
+        "name": "Waterloo & City",
+        "modeName": "tube",
+        "disruptions": [],
+        "created": "2022-05-12T09:57:51.703Z",
+        "modified": "2022-05-12T09:57:51.703Z",
+        "lineStatuses": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                "id": 0,
+                "lineId": "waterloo-city",
+                "statusSeverity": 4,
+                "statusSeverityDescription": "Planned Closure",
+                "reason": "WATERLOO & CITY LINE: Closed on weekends and public bank holidays.",
+                "created": "0001-01-01T00:00:00",
+                "validityPeriods": [
+                    {
+                        "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+                        "fromDate": "2022-05-15T04:30:00Z",
+                        "toDate": "2022-05-15T23:59:00Z",
+                        "isNow": false
+                    }
+                ],
+                "disruption": {
+                    "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                    "category": "PlannedWork",
+                    "categoryDescription": "PlannedWork",
+                    "description": "WATERLOO & CITY LINE: Closed on weekends and public bank holidays.",
+                    "created": "2022-03-11T11:08:00Z",
+                    "affectedRoutes": [],
+                    "affectedStops": [],
+                    "closureText": "plannedClosure"
+                }
+            }
+        ],
+        "routeSections": [],
+        "serviceTypes": [
+            {
+                "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                "name": "Regular",
+                "uri": "/Line/Route?ids=Waterloo & City&serviceTypes=Regular"
+            }
+        ],
+        "crowding": {
+            "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+        }
+    }
+]
